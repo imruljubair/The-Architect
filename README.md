@@ -3,6 +3,8 @@ Interactive Visualization of Deep Learning Mathematics Directly in Microsoft Exc
 
 Technical report: https://arxiv.org/abs/2608.13572
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HzAudh_PK8I?si=L1RuL_8JuObLlTzO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Contents
 
 - `Code/theArchitect_v2.xlsx`: Excel workbook containing the Architect interface, generated blueprint views, and example data.
