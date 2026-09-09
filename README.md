@@ -34,6 +34,9 @@ The artifact supports the workflow described in the paper:
 5. Run the script to generate the blueprint and, when enabled, epoch sheets and dashboard views.
 6. After generation, you can continue investigating by editing workbook cells and formulas directly.
 
+<img width="1324" height="736" alt="image" src="https://github.com/user-attachments/assets/c81ae6d4-d1de-4969-86d6-645005b82c64" />
+
+
 ## Notes For Review
 
 - This repository is intentionally anonymized.
