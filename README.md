@@ -1,5 +1,6 @@
 # The-Architect
-Interactive Visualization of Deep Learning Mathematics Directly in Microsoft Excel
+Interactive Visualization of Deep Learning Mathematics Directly in Microsoft Excel.
+
 Technical report: https://arxiv.org/abs/2608.13572
 
 ## Contents
