@@ -1,11 +1,10 @@
-# The Architect
-Interactive Visualization of Deep Learning Mathematics Directly in Microsoft Excel.
 <img width="1422" height="253" alt="image" src="https://github.com/user-attachments/assets/88e2951a-f5a9-4711-8c56-d8dd0ada6d9a" />
 
+# The Architect
+Interactive Visualization of Deep Learning Mathematics Directly in Microsoft Excel.
 
-Technical report: https://arxiv.org/abs/2608.13572
-
-Youtube Tutorial: https://youtu.be/HzAudh_PK8I?si=mjjd1A8EpEM2QA6G
+- Technical report: https://arxiv.org/abs/2608.13572
+- Youtube Tutorial: https://youtu.be/HzAudh_PK8I?si=mjjd1A8EpEM2QA6G
 
 ## Contents
 
