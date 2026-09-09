@@ -36,8 +36,5 @@ The artifact supports the workflow described in the paper:
 
 <img width="1324" height="736" alt="image" src="https://github.com/user-attachments/assets/c81ae6d4-d1de-4969-86d6-645005b82c64" />
 
+<img width="1324" height="736" alt="image" src="https://github.com/user-attachments/assets/cb9eb5ba-f775-48cf-9ab1-7576f3000f83" />
 
-## Notes For Review
-
-- This repository is intentionally anonymized.
-- The workbook may contain example configurations and generated sheets used for demonstration.
