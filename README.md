@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/logo.png" alt="The Architect logo" width="180">
-</p>
-
 <img width="1422" height="253" alt="image" src="https://github.com/user-attachments/assets/88e2951a-f5a9-4711-8c56-d8dd0ada6d9a" />
 
 # The Architect
