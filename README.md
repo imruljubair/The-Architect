@@ -1,40 +1,43 @@
+<p align="center">
+  <img src="assets/logo.png" alt="The Architect logo" width="180">
+</p>
+
 <img width="1422" height="253" alt="image" src="https://github.com/user-attachments/assets/88e2951a-f5a9-4711-8c56-d8dd0ada6d9a" />
 
 # The Architect
-Interactive Visualization of Deep Learning Mathematics Directly in Microsoft Excel.
 
-- Technical report: https://arxiv.org/abs/2608.13572
-- Youtube Tutorial: https://youtu.be/HzAudh_PK8I?si=mjjd1A8EpEM2QA6G
+Interactive forward-pass deep-learning mathematics in Microsoft Excel, preserving the original workbook layout
+and all three original buttons: **🎲 Randomize**, **↺ Clear**, and **▶ Run**.
+The backpropagation checkbox is disabled, and backward-pass, parameter-update,
+training-epoch, and dashboard generation code is removed. Forward loss calculations
+and PyTorch forward code remain.
+
+Open **theArchitect_finalV2.xlsx** in this directory and use the original buttons.
+The Run button targets the dedicated **The Architect - Forward Pass** Office Script.
+Randomize and Clear retain their original script links and behavior.
+
+The source is provided in `src/`; the original `.osts` filenames remain at the
+repository root. To install under another Microsoft 365 account, save each script
+in Automate and associate the respective worksheet button with it. Office Scripts
+are stored in OneDrive and referenced by workbook buttons.
+
+For development, run `npm ci` and `npm run check`. `npm run build` copies the
+editable TypeScript sources into the distributed `.osts` files.
 
 ## Contents
 
-- `Code/theArchitect_v2.xlsx`: Excel workbook containing the Architect interface, generated blueprint views, and example data.
-- `Code/architect_Mar24_2026_improve.osts`: Office Script source used to generate and update workbook blueprints.
+- [Excel workbook](theArchitect_finalV2.xlsx): the forward-only workbook.
+- `src/`: editable TypeScript for Run, Randomize, and Clear.
+- Root `.osts` files: distributable Office Scripts.
+- `tests/`: forward-generation and saved-workbook checks.
 
-## What This Artifact Demonstrates
+Backpropagation, parameter updates, and training diagnostics are available in the
+separate **Hack Propagation** project.
 
-The artifact supports the workflow described in the paper:
+## References
 
-- specifying a neural network in the Architect tab
-- generating forward and backward spreadsheet blueprints
-- materializing multi-epoch training views
-- inspecting and editing formulas directly inside Excel after generation
+- [Technical report](https://arxiv.org/abs/2608.13572)
+- [Video tutorial](https://youtu.be/HzAudh_PK8I)
 
-## Requirements
-
-- Microsoft Excel with Office Scripts support
-- A recent Excel version with dynamic array formulas enabled
-
-## How To Use
-
-1. Open `Code/theArchitect_v2.xlsx` in Microsoft Excel.
-2. Open the Office Script editor.
-3. Import or paste the script from `Code/architect_Mar24_2026_improve.osts`.
-4. In the workbook, go to the Architect tab and edit the network specification.
-5. Run the script to generate the blueprint and, when enabled, epoch sheets and dashboard views.
-6. After generation, you can continue investigating by editing workbook cells and formulas directly.
-
-<img width="1324" height="736" alt="image" src="https://github.com/user-attachments/assets/c81ae6d4-d1de-4969-86d6-645005b82c64" />
-
-<img width="1324" height="736" alt="image" src="https://github.com/user-attachments/assets/cb9eb5ba-f775-48cf-9ab1-7576f3000f83" />
-
+The original report and tutorial describe the combined forward and training artifact.
+This repository provides the forward-only edition.
